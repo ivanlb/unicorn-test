@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    camping (2.1.532)
+      mab (>= 0.0.3)
+      rack (>= 1.0)
+    kgio (2.9.2)
+    mab (0.0.3)
+    rack (1.5.2)
+    raindrops (0.12.0)
+    unicorn (4.8.2)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  camping
+  unicorn

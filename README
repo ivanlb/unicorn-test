@@ -1,0 +1,8 @@
+Run server with:
+unicorn -c unicorn.conf.rb
+
+Run test with:
+./run-test.rb request_number
+
+Unicorn configuration file:
+unicorn.conf.rb
